@@ -12,7 +12,7 @@ The 100 photographs in the collection were taken with a smartphone camera and in
 ## Model 
 The model is a four-layer CNN and two fully conntected layers with the following architecture:<br/>
 
-  ---> inputr layer : The input layer of shape is (64 x 64 x 3), which means that the input image has a height and width of 64 pixels and three color channels (RGB). The activation function used in this layer is ReLU.<br/>
+  - inputr layer : The input layer of shape is (64 x 64 x 3), which means that the input image has a height and width of 64 pixels and three color channels (RGB). The activation function used in this layer is ReLU.<br/>
   ---> The first convolutional layer has 32 filters of size 3 x 3.<br/>
   ---> he second convolutional layer has 32 filters of size 2 x 2, which means that each filter has a kernel size of 2 pixels in width and height. This layer reduces the spatial dimensions by half compared to the previous layer. The activation function used in this layer is also ReLU.<br/>
   ---> The third convolutional layer has 64 filters of size 2 x 2, which means that each filter has a kernel size of 2 pixels in width and height. <br/>
@@ -28,9 +28,6 @@ The model is a four-layer CNN and two fully conntected layers with the following
   OpenCV <br/>
   NumPy <br/>
   Matplotlib <br/>
-
-  You can clone this repository using the following command: <br/>
-  <input type="text" value="git clone https://github.com/TANA-BHU/fake-note-detection-using-cnn.git" id="myInput">
 
   ## Reference <br/>
   Counterfeit Currency Detection using Deep Convolutional Neural Network | IEEE Conference Publication | IEEE Xplore. (n.d.). Ieeexplore.ieee.org. Retrieved January 11, 2024, from https://ieeexplore.ieee.org/document/9105683
