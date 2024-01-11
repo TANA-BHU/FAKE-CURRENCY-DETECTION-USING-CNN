@@ -30,7 +30,7 @@ The model is a four-layer CNN and two fully conntected layers with the following
   Matplotlib <br/>
 
   You can clone this repository using the following command: <br/>
-  <p>git clone https://github.com/TANA-BHU/fake-note-detection-using-cnn.git</p>
+  <input type="text" value="git clone https://github.com/TANA-BHU/fake-note-detection-using-cnn.git" id="myInput">
 
   ## Reference <br/>
   Counterfeit Currency Detection using Deep Convolutional Neural Network | IEEE Conference Publication | IEEE Xplore. (n.d.). Ieeexplore.ieee.org. Retrieved January 11, 2024, from https://ieeexplore.ieee.org/document/9105683
