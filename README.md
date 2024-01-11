@@ -10,7 +10,7 @@ The 100 photographs in the collection were taken with a smartphone camera and in
 ![image](https://github.com/TANA-BHU/FAKE-CURRENCY-DETECTION-USING-CNN/assets/103022959/df4de025-3539-47ea-ba3f-37a64a1d7a48)
 
 ## Model 
-The model is a four-layer CNN and two fully conntected layers with the following architecture:
+The model is a four-layer CNN and two fully conntected layers with the following architecture:<br/>
 
   ---> inputr layer : The input layer of shape is (64 x 64 x 3), which means that the input image has a height and width of 64 pixels and three color channels (RGB). The activation function used in this layer is ReLU.
   ---> The first convolutional layer has 32 filters of size 3 x 3.
