@@ -14,7 +14,7 @@ The model is a four-layer CNN and two fully conntected layers with the following
 
   - inputr layer : The input layer of shape is (64 x 64 x 3), which means that the input image has a height and width of 64 pixels and three color channels (RGB). The activation function used in this layer is ReLU.<br/>
   - The first convolutional layer has 32 filters of size 3 x 3.<br/>
-    - The second convolutional layer has 32 filters of size 2 x 2, which means that each filter has a kernel size of 2 pixels in width and height. This layer reduces the spatial dimensions by half compared to the previous layer. The activation function used in this layer is also ReLU.<br/>
+  - The second convolutional layer has 32 filters of size 2 x 2, which means that each filter has a kernel size of 2 pixels in width and height. This layer reduces the spatial dimensions by half compared to the previous layer. The activation function used in this layer is also ReLU.<br/>
   - The third convolutional layer has 64 filters of size 2 x 2, which means that each filter has a kernel size of 2 pixels in width and height. <br/>
   - The fourth convolutional layer has 128 filters of size 2 x 2.<br/>
   - The flatten layer converts the output of all four convolutional layers into a one-dimensional vector with length equal to the number of filters in each convolutional layer multiplied by four. In this case, it becomes a vector with length equal to (32 x 32) + (32 x 32) + (64 x 64) + (128 x 128) = 2048 units.<br/>
